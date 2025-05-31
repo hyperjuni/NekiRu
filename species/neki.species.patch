@@ -1,0 +1,36 @@
+[
+  {"op": "replace", "path": "/charGenTextLabels/9", "value": "Стойка"},
+  {"op": "replace", "path": "/charGenTextLabels/8", "value": "НЭКИ"},
+  {"op": "replace", "path": "/charGenTextLabels/7", "value": "Цвет одежды"},
+  {"op": "replace", "path": "/charGenTextLabels/6", "value": "Цвет рукавов"},
+  {"op": "replace", "path": "/charGenTextLabels/5", "value": "Цвет гривы"},
+  {"op": "replace", "path": "/charGenTextLabels/4", "value": "Цвет глаз/KKM"},
+  {"op": "replace", "path": "/charGenTextLabels/3", "value": "Одежда"},
+  {"op": "replace", "path": "/charGenTextLabels/2", "value": "Рукава"},
+  {"op": "replace", "path": "/charGenTextLabels/1", "value": "Грива"},
+  {"op": "replace", "path": "/charGenTextLabels/0", "value": "Цвет шерсти"},
+  {"op": "replace", "path": "/charCreationTooltip/description",
+    "value": "Несмотря на внешность, нэки отнюдь не милашки. По слухам, они - разработка Людей, попавшая не в те руки, и больше напоминают диких животных нежели своих предполагаемых создателей.
+^cyan;Расовые атрибуты доступны с модом Race Traits.^reset;
+
+^cyan;Здоровье^reset;: ^red;-25%^reset;
+^cyan;Энергия^reset;: ^green;+50%^reset;
+^cyan;Реген. энергии^reset;: ^green;+25%^reset;
+^cyan;Атака^reset;: ^red;-15%^reset;
+
+^cyan;Сопротивление огню^reset;: ^red;-15%^reset;
+^cyan;Сопротивление яду^reset;: ^green;+10%^reset;
+^cyan;Сопротивление холоду^reset;: ^green;+15%^reset;
+^cyan;Сопротивление физ. урону^reset;: ^red;-15%^reset;
+
+^yellow;Сопротивления^reset;: ^green;Обморожению, Замедлению^reset;
+^yellow;Расовые преимущества^reset;: ^green;Буст плавания (альт.), Реген. здоровья^reset;
+
+^cyan;Скорость передвижения^reset;: ^green;+18%^reset;
+^cyan;Высота прыжка^reset;: ^green;+30%^reset;
+^cyan;Урон от падения^reset; ^green;-40%^reset;
+^cyan;Голод^reset;: ^red;+50%^reset;"
+  },
+  {"op": "replace", "path": "/charCreationTooltip/subTitle", "value": "Пррривет..."},
+  {"op": "replace", "path": "/charCreationTooltip/title", "value": "Нэки"}
+]

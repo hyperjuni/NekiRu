@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Платье, длинное+"},
+  {"op": "replace", "path": "/description", "value": "Вряд ли есть более важное применение этим сверкающим синим камушкам."}
+]

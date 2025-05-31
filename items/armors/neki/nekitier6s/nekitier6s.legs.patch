@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Броня МК"},
+  {"op": "replace", "path": "/description", "value": "[С анимацией]\nБроня, разработанная специально для Нэки-агентов Миникнога."}
+]

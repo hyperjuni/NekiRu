@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Хливкая коробка, полная какого-то тряпья."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Залезу-ка и подрыхну."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Подозрительно тёплая картонная коробка. Похоже, в ней укрывается животное."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Вонючая старая коробка. Но она не всегда была такой."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Озадаченно. Эта коробка находится в сильном запущении, но, похоже, активно используется."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Коробка хорошее укрытие, и уютная изззнутри."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Довольно большая картонная коробка, которую кто-то погрыз."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Невзрачная картонная коробка, от которой странно пахнет."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Подбитая и погрызенная коробка, полная тряпья и клочков шерсти."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Нэки-кроватка, простая"
+  }
+]

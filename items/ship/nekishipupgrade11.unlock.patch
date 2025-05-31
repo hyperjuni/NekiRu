@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/description", "value": "Перенастраиваемый вариант корабля Нэки."},
+  {"op": "replace", "path": "/shortdescription", "value": "Улучшение корабля 11"}
+]

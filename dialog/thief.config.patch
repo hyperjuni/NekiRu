@@ -1,0 +1,35 @@
+[
+// accuse
+  {"op": "replace", "path": "/accuse/neki",
+    "value": {
+      "default": [
+        "Кххх! Брось, это моё!"
+      ]
+    }
+  },
+  {"op": "replace", "path": "/accuse/nekistripes",
+    "value": {
+      "default": [
+        "Не забирай мои вещи пожалуйста, они мне нужны!",
+        "^gray;*печальный рёв*^reset;"
+      ]
+    }
+  },
+
+// alert
+  {"op": "replace", "path": "/alert/neki",
+    "value": {
+      "default": [
+        "Мррряуу!"
+      ]
+    }
+  },
+  {"op": "replace", "path": "/alert/nekistripes",
+    "value": {
+      "default": [
+        "Мррряуу!",
+        "^gray;*рычит*^reset;"
+      ]
+    }
+  }
+]

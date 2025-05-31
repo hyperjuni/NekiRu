@@ -1,0 +1,29 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Самое время перезагрузить эту станцию, и пообщаться с S.A.I.L."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Неудивительно, что мы залипли - S.A.I.L сломался!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Эта консоль позволит мне пообщаться с S.A.I.L, но сначала её нужно перезагрузить."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Если я смогу перезагрузить эту консоль, S.A.I.L должен снова включиться!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Расстроенно. Чтобы взаимодействовать с S.A.I.L, сначала нужно перезагрузить эту консоль."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флорану нужно починить эту панель, чтобы разбудить корабль!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Перезагрузив эту станцию, можно будет пообщаться с S.A.I.L."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Когда она заработает, я смогу общаться с S.A.I.L через эту консоль."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Корабельный Искусственный Интеллект, или просто S.A.I.L."
+  }
+]

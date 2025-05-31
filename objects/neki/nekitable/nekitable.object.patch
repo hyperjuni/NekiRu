@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "У старого доброго ящика двойная жизнь - и стол, и логово."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Лучшенький столик!\nМожно и вскочить, и заныкаться!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Кажется, этот потрёпанный ящик приспособили под незамысловатое убежище."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Хосспади, это что - картонная крепость?"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Замешательство. Ящикам есть применения получше, а убежище можно соорудить из чего-нибудь более подходящего."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Ящик - неплохое место для засады, и доссстаточно крепкий чтобы на нём ссстоять."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Это выглядит и пахнет как логово хищника! Думаю, не стоит к нему подходить."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Трудно поверить, что где-то ещё существует бездомность."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Прочный картонный ящик, преобразованный в... Укрытие?"
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Нэки-столик, простой"
+  }
+]

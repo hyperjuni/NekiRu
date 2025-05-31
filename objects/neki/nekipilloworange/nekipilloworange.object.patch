@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Эта хрень меня чёт ва-аще не впечатляет."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "А мне нрравится эта подуха. Клёвая же подуха!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Покрытие этого пуфика сделано из довольно грубой ткани весьма унылого цвета."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Этот пуфик выглядит как-то по дешмански."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Бесстрастно. Ткань, которой покрыт этот пуфик - очень грубая, даже по моим меркам."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Сидя на этом, зад флорана натирается до блессска!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "У меня есть догадки о том, во что оно обернуто."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Он что, сделан из одной из наших типовых занавесок? Вот прикол!"
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Уныло-оранжевый пуфик, обёрнутый занавеской из грубой ткани."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Пуфик Нэки, оранжевый"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Да тут шерсти - мне на свитер хватит!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Колёсики крутятся - шмоточки крафтятся!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Это могло бы стать настоящим инструментом искусства, будь оно поухоженнее."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Слегонца запущенная деревянная пряжка, усыпанная шерстью."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Наблюдательно. Не особо ухоженный портняжный инструмент."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флоран крутит волосссатое колесо, делает волосссатые нитки."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Устройство для работы с тканями... Но почему оно всё в шерсти?"
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Усыпанная шерстью пряжка."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "На этой пряжке Нэки констролят свои шмоточки."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "^orange;Прялка Нэки^reset;"
+  }
+]

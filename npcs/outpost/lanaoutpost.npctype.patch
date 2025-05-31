@@ -1,0 +1,27 @@
+[
+  {"op": "replace", "path": "/scriptConfig/dialog/merchant/start/default/neki",
+    "value": [
+      "Приветствую, ^#71f2f6;<entityname>^reset;. Я получила свежую партию Улучшений - взгляни, может тебе что-нибудь пригодится."
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/merchant/welcome/default/neki",
+    "value": [
+      "Приветствую, ^#71f2f6;<entityname>^reset;. Я получила новую партию Улучшений - глянь, может что-нибудь тебя заинтересует."
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/merchant/end/default/neki",
+    "value": [
+      "Завтра прибудет новая партия - заходи, если понадобится.",
+      "Возвращайся завтра, ^#71f2f6;<entityname>^reset;, как раз подоспеет свежая партия."
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/merchant/tout/default/neki",
+    "value": [
+      "Я получила свежую партию Улучшений от повстанцев.",
+      "^#71f2f6;<entityname>^reset;, повстанцы снабдили меня новыми Улучшениями."
+    ]
+  }
+]

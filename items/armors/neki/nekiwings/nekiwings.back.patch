@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "(Нэки) Нарядные Крылья"},
+  {"op": "replace", "path": "/description", "value": "Будем надеяться что резня, требуемая для их создания, того стоит."}
+]

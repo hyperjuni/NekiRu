@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Эти шторы явно видали дни и получше."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Вот! Так же намного лучше!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "О... О боже..."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Эти шторы наверное когда-то висели во дворце."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Огорчённо. Состояние этих штор, похоже, неисправимо."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Кто-то подрал вычурную штору. Флорану так большшше нравится."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Кажется кто-то слегка переборщил с этой шторкой."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Роскошная, пышная штора, потерпевшая прикосновение некого... Животного."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Длинная тонкая портьерка с лёгким... Кошачьим штрихом."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Нэки-Портьерка, узкая"
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Плечи Миротворца Нэки"},
+  {"op": "replace", "path": "/description", "value": "Наплечники от формы Миротворца, приспособленной под физиологию Нэки."}
+]

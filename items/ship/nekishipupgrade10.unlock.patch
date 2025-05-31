@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/description", "value": "Этот предмет позволяет улучшить корабль до 10-го уровня."},
+  {"op": "replace", "path": "/shortdescription", "value": "Улучшение корабля 10"}
+]

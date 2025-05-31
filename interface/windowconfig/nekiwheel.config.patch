@@ -1,0 +1,10 @@
+[
+  {"op": "replace", "path": "/paneLayout/filter/hint", "value": "Поиск"},
+  {"op": "replace", "path": "/paneLayout/lblProduct/value", "value": "ДОСТУПНЫЙ МАТЕРИАЛ"},
+  {"op": "replace", "path": "/paneLayout/btnStopCraft/caption", "value": "Остановить"},
+  {"op": "replace", "path": "/paneLayout/btnCraft/caption", "value": "Создать"},
+  {"op": "replace", "path": "/paneLayout/lblProducttitle/value", "value": "ПРЕДМЕТ"},
+  {"op": "replace", "path": "/paneLayout/lblSchematics/value", "value": "ЧЕРТЕЖИ"},
+  {"op": "replace", "path": "/paneLayout/windowtitle/subtitle", "value": " Нэки-штучки"},
+  {"op": "replace", "path": "/paneLayout/windowtitle/title", "value": " ПРЯЛКА НЭКИ"}
+]

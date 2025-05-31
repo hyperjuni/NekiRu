@@ -1,0 +1,22 @@
+[
+  {"op": "replace", "path": "/scriptConfig/crew/role/field",
+    "value": "Фиолетовая слизь"
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/default",
+    "value": {
+      "default": [
+        "Погоди, почему я не нэки?!",
+        "Почему я... Вот это?!"
+      ]
+    }
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+    "value": {
+      "default": [
+        "Со мной, твой корабль будет лучше...\nПереваривать фиолетовую слизь."
+      ]
+    }
+  }
+]

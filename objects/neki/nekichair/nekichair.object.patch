@@ -1,0 +1,36 @@
+[
+  {"op": "replace", "path": "/emptyText",
+    "value": "В этой коробке, похоже, нет ничего интересного."
+  },
+
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Чёт с этой коробкой не так, зуб даю."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Лучшая коробочка для лучшей жопки!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Весьма праздничная коробочка, но что-то меня в ней всё равно напрягает."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Подарки! Сюрпризы! Фантики! Ура!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Внимательность. Этот подарок никому не адресован."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флоран хочет подарок! Всссех зарежет!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Какой-то этот подарок... Вонючий."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "У меня какое-то нехорошее предчувствие насчёт этого подарка."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Небольшая разноцветная подарочная коробка."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Нэки-стульчик, простой"
+  }
+]

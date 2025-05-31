@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Эта хрень, кажись, неплохо горит!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Кажется, это была не самая лучшая идея... Но хоть удобно!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Любопытный подбор материалов для пуфика."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Мне только кажется, или от этого пуфика несёт машинным маслом?"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Диссонанс. Это было бы весьма оскорбительно, не будь оно столь чертовски удобным."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флорана впечатляет подуха из флага металло-людей!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Боженьки, Глитчи пришли бы в неистовство, увидев это."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Тот кто это сотворил - смельчак, обокравший крепость Глитчей!"
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Тёмный пуфик, сшитый из баннера Глитчей."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Пуфик Нэки, чёрный"
+  }
+]

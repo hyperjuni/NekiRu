@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/gui/count/value", "value": "<slots> СЛОТОВ"},
+  {"op": "replace", "path": "/gui/clear/caption", "value": "Взять всё"}
+]

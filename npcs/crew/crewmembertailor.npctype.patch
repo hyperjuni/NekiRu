@@ -1,0 +1,10 @@
+[
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+    "value": {
+      "default": [
+        "Могу заставить их одеться, или рраздеться, так же, как и ты!",
+        "Почему я вообще этим занимаюсь? Я же терпеть не могу одежду..."
+      ]
+    }
+  }
+]

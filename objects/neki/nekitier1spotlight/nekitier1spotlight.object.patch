@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Этот фонарь почти такой же яркий как и я!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Эта штучка прроливает свет на вещи."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Мягкий, приятный свет."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Мне всегда хотелось оказаться в блеске софитов."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Скрытно. Изучив схему освещения этого прожектора, от него было бы несложно скрыться."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флоран чувссствует себя в тсссентре внимания."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Мягкий свет."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Подобные прожектора используются агентами Миникнога при допросах. А так же вещи похуже..."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Этот фонарь полезен для освещения небольших пространств."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Бортовой фонарь МК"
+  }
+]

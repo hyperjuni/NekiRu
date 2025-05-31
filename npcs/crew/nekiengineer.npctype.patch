@@ -1,0 +1,24 @@
+[
+  {"op": "replace", "path": "/scriptConfig/crew/role/field",
+    "value": "Веще-роняние"
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default",
+    "value": {
+      "default": [
+        "Погоди, почему я не нэки?!",
+        "Почему я... Вот это?!"
+      ]
+    }
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki/default",
+    "value": {
+      "default": [
+        "Споткнувшись об какие-то прровода, мне удалось заставить двигатель уррчать громче. Не благодари.",
+        "У меня что-то упало на двигатель, и теперь он уррчит громче!",
+        "Пойду уроню что-нибудь в машинном зале."
+      ]
+    }
+  }
+]

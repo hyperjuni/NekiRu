@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Кажись, этот пуфик наштопали из платочков."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Получилось многовато швов, но цвет мне нрравится!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Любопытный подбор материалов для пуфика."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Что-ж, ну хотя бы эти платочко-баннеры не использовали для чего похуже."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Встревоженно. Не хотелось бы мне оказаться на месте Авиана который это увидит."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Эта подуха сссделана из птичьих платков."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Клюэкс всемогущий! Какое омерзительное осквернение символических знамён Авианских детей!"
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Если честно - это куда лучшее применение кусочкам ткани, чем всякие символические знамёна."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Пуфик, сшитый из множества маленьких Авианских знамён."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Пуфик Нэки, жёлтый"
+  }
+]

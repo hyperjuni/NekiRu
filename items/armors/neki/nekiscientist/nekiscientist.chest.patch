@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Научные рукава"},
+  {"op": "replace", "path": "/description", "value": "Эти рукава созданы исключительно в научных целях."}
+]

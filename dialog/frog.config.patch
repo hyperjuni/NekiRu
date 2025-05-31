@@ -1,0 +1,33 @@
+[
+  {"op": "replace", "path": "/converse/default/neki",
+    "value": [
+      "*ква*",
+      "*ква*",
+      "*ква*",
+      "А вдруг окажется, что они нас понимают.",
+      "Вот это был бы прикол.",
+      "И чего это существо на меня вытаращитлось?\nНеужели понимает..?",
+      "Ой, это что, было вслух?",
+      "..."
+    ]
+  },
+  {"op": "replace", "path": "/accuse/default/neki", "value": ["*ква..!*"]},
+  {"op": "replace", "path": "/alert/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/hail/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/helpme/default/neki", "value": ["...чёрт!"]},
+  {"op": "replace", "path": "/helpthem/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/encourage/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/safe/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/start/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/end/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/follow/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/welcome/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/tout/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/tagCriteria/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/enclosedArea/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/otherDeed/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/severe/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/final/default/neki", "value": ["*ква!*"]},
+  {"op": "replace", "path": "/beacon/default/neki", "value": ["*ква*"]},
+  {"op": "replace", "path": "/rent/default/neki", "value": ["*ква*"]}
+]

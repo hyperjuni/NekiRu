@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки-штучка, Холод"},
+  {"op": "replace", "path": "/description", "value": "Странна ледяная штуковина, может пригодиться для улучшений."}
+]

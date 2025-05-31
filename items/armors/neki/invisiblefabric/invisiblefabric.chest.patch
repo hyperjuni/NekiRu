@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "(Нэки) Майка-невидимка"},
+  {"op": "replace", "path": "/description", "value": "Эта шикарная майка скроет всё то, что скрывает шикарный торс её носителя."}
+]

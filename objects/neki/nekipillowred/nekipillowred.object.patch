@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Не вдупляю чёт, и нахрена это нужно?"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "То хливкое коричневое укрытие всё равно было бесполезным."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Ни оригинал, ни это... Переосмысление, не кажутся мне особо удобными."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Ну вот и зачем было портить такую хорошую палатку?!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Сарказм. Великолепно, теперь есть место всего для одного, и то сверху."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Дуратссское укрытие теперь сиденье! Флоран в восссторге!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Какой удобный пуфик, будто бы он набит... Эй, минуточку..."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Интересное применение для... Палатки, что-ли?"
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Пуфик, сделанный из красной палатки, набитой перьями."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Пуфик Нэки, красный"
+  }
+]

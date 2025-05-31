@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "(Нэки) Пышные Крылья"},
+  {"op": "replace", "path": "/description", "value": "Ни один ангел при создании этих крыльев (вроде бы) не пострадал."}
+]

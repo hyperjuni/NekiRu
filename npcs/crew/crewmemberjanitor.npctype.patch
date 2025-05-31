@@ -1,0 +1,11 @@
+[
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+    "value": {
+      "default": [
+        "Я собираю поломанные игррушки с пола.",
+        "Обычно, я дрыхну весь день.",
+        "Комочки пыли - пррекрасны!"
+      ]
+    }
+  }
+]

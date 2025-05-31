@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Кто-то то-ли переезжает, то-ли прибарахлился перьями!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Крепость!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Издалека это напоминает мешки с мусором, но вблизи выглядит ещё отвратительнее."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Хочется нырнуть бомбочкой прямо в эту кучу!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Озадаченно. Предназначение этой конструкции мне совершенно непонятно."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Куча - отличное месссто для засады!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Настолько удобно, что начинаешь забывать о том что это - безжалостно награбленные перья."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Из этого вряд ли бы вышло особо эффективное укрытие в перестрелке."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Ворох странноватых разноцветных пуфиков."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Груда пуфиков Нэки"
+  }
+]

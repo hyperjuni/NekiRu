@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Ё-моё, какая безвкусица!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Самое пррекрасное и удобное ложе во вселенной!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Кто в здравом уме способен создать настолько безвкусный предмет мебели..?"
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Фигасе, какое роскошное ложе!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Изумлённо. Никогда не встречалось столько роскоши, использованной столь непрактично."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Так вот куда девалссся диван Флорана."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Какой жуткий показ кощунства и ворованных артефактов!"
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Такое ложе, кажется, оскорбило бы эстетическое чувство даже Большого Эйпа."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Монументальное ложе, собранное из различных предметов роскоши, и... всякого хлама."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Нэки-кровать, пышная"
+  }
+]

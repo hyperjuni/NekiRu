@@ -1,0 +1,31 @@
+[
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+    "value": {
+      "default": [
+        "Я прредоставляю медицинские услуги.",
+        "Теперь я тут доктор."
+      ]
+    }
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/fieldBenefit/neki",
+    "value": {
+      "default": [
+        "Как тебя вообще угораздило?!",
+        "Зачем ты себя так уродуешь?",
+        "Ты как-то неважно выглядишь.",
+        "Может, хватит?"
+      ]
+    }
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/crewmember/combatBenefit/neki",
+    "value": {
+      "default": [
+        "У тебя идёт кровь! Дай лизнуть.",
+        "Давай попрробуем это вылечить.",
+        "Я понятия не имею, что я делаю."
+      ]
+    }
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэкини-мини"},
+  {"op": "replace", "path": "/description", "value": "Как бегать голышом, но с верёвочками."}
+]

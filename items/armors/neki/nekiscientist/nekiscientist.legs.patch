@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Научный халат"},
+  {"op": "replace", "path": "/description", "value": "Мешает чувствительным особям обращаться с высокочувствительными веществами."}
+]

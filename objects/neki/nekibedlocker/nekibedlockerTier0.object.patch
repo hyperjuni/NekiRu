@@ -1,0 +1,36 @@
+[
+  {"op": "replace", "path": "/deniedText",
+    "value": "Ты в своём уме?\nМожет лучше присядешь?"
+  },
+
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Скрытный шкафчик для скрытия барахлишка."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Этот стено-домик, похоже, не фурычит."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Всего лишь неприметное хранилище... Или не только?"
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Скрытный настенный шкафчик. Тайник!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Удовлетворённо. Эффективно замаскированная система хранения."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Место для засады, замаскированное под настенный шкафчик! Флоран одобряет."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Скрытное устройство хранения, способное скрыть в себе всякую всячину."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Этот довольно непримечательный шкафчик имеет необычное покрытие."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Просторный настенный шкафчик с тёмным, скрытным внешним покрытием."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Нэки шкаф-кроватка (откл.)"
+  }
+]

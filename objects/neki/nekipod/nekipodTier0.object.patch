@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Ага, фиг я к этой хрени подойду."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Я люблю маму."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Похоже, оно предназначено для какого-то существа, возможно даже водоплавающего."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "О, как раз под размер моей тушки!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Наблюдательно. Похоже на аппарат жизнеобеспечения для какого-то существа."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Такие штуки неестессственны."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Тёмная магия какая-то..."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Первый раз вижу такой огромный инкубатор. Интересно, для чего или кого он?"
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Этот инкубатор Нэки не функционирует."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Инкубатор Нэки (откл.)"
+  }
+]

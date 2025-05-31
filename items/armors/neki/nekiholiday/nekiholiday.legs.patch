@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Праздничная юбка"},
+  {"op": "replace", "path": "/description", "value": "Новый Год на носу!\nИ на мне тоже."}
+]

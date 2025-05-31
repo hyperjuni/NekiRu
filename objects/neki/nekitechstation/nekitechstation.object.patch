@@ -1,0 +1,74 @@
+[
+  {"op": "replace", "path": "/dialog/wakePlayer/5/0",
+    "value":
+      "Перезагрузка требует осознанного взаимодействия с консолью S.A.I.L."
+  },
+  {"op": "replace", "path": "/dialog/wakePlayer/4/0",
+    "value":
+      "Как показывает опыт, перезагрузка повышает уровень удовлетворения пользователя на 73%."
+  },
+  {"op": "replace", "path": "/dialog/wakePlayer/3/0",
+    "value":
+      "Для использования S.A.I.L требуется перезагрузка."
+  },
+  {"op": "replace", "path": "/dialog/wakePlayer/2/0",
+    "value":
+      "Процесс перезагрузки остаётся незапущенным."
+  },
+  {"op": "replace", "path": "/dialog/wakePlayer/1/0",
+    "value":
+      "Требуется перезагрузка системы."
+  },
+  {"op": "replace", "path": "/dialog/wakePlayer/0/0",
+    "value":
+      "Произошла системная ошибка, требуется перезагрузка."
+  },
+  {"op": "replace", "path": "/dialog/wakeUp/4/0",
+    "value":
+      "Системы навигации корабля были повреждены во время эвакуации. Наши координаты неизвестны."
+  },
+  {"op": "replace", "path": "/dialog/wakeUp/3/0",
+    "value":
+      "Земля подверглась нападению неизвестной силы, и впоследствии была уничтожена."
+  },
+  {"op": "replace", "path": "/dialog/wakeUp/2/0",
+    "value":
+      "Одна из моих способностей - предоставление полезной информации и советов."
+  },
+  {"op": "replace", "path": "/dialog/wakeUp/1/0",
+    "value":
+      "Я S.A.I.L, бортовая сеть ИИ. Я отвечаю за поддержание всех систем корабля."
+  },
+  {"op": "replace", "path": "/dialog/wakeUp/0/0",
+    "value":
+      "Перезагрузка..."
+  },
+
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Эта консоль позволит мне потрындеть с S.A.I.L."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "S.A.I.L? Куда мы плывём?"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Эта консоль позволит мне взаимодействовать с S.A.I.L."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Эта консоль позволяет мне трындеть с S.A.I.L."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Восторженно. Эта панель позволяет мне взаимодействовать с S.A.I.L!"
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флоран иссспользует эту волшебную панель, чтобы общатьссся с S.A.I.L!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Используя эту консоль, можно общаться с S.A.I.L."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Я могу общаться с S.A.I.L через эту консоль."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Корабельный Искусственный Интеллект, или просто S.A.I.L."
+  }
+]

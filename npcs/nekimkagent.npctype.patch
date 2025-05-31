@@ -1,0 +1,35 @@
+[
+  {"op": "replace", "path": "/scriptConfig/dialog/converse/default/default",
+    "value": [
+      "Погоди, почему я не нэки?!",
+      "Почему я... вот это вот?!"
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/converse/neki/default",
+    "value": [
+      "Ты как-то... Странно пахнешь.",
+      "Прроходи.",
+      "^gray;*обнюхивает*^reset;",
+      "Мрр..?"
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/converse/neki/apex",
+    "value": [
+      "Я слежу за тобой, чужак.",
+      "Ты не из наших краёв.",
+      "Ты ещё что здесь делаешь?",
+      "А ты ещё кто?"
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/converse/neki/neki",
+    "value": [
+      "Когда ты вообще себя последний раз лизь?",
+      "А ты почему не в служебной форме?",
+      "От тебя несёт чужаками.",
+      "А ты с чего не на посту?"
+    ]
+  }
+]

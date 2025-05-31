@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "(Нэки) Шапка-невидимка"},
+  {"op": "replace", "path": "/description", "value": "Вопреки древним легендам, данный экземпляр делает невидимой только шапку."}
+]

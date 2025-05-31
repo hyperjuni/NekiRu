@@ -1,0 +1,3 @@
+[
+  {"op": "replace", "path": "/panels/2/text", "value": "20% пикселей потеряно"}
+]

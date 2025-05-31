@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки Т6 Электро Когти"},
+  {"op": "replace", "path": "/description", "value": "Лапковая терапия."}
+]

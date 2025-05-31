@@ -1,0 +1,19 @@
+[
+  {"op": "replace", "path": "/identity/name", "value": "Страйпс"},
+  {"op": "replace", "path": "/scriptConfig/crew/role/name", "value": "Тигрица"},
+  {"op": "replace", "path": "/scriptConfig/crew/role/field", "value": "Няшно"},
+  {"op": "replace", "path": "/scriptConfig/crew/ranks",
+    "value": [
+      "Не просто <role>",
+      "<role>, которую ты заслуживаешь",
+      "Специалистка по <field>сти",
+      "Единственная в своём роде <role>",
+      "Мастер по <field>сти",
+      "Сама <field>сть"
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/nekiStripesMultipleRecruitmentDisallowedText",
+    "value": "Но я ведь уже в твоём экипаже, глупышка!"
+  }
+]

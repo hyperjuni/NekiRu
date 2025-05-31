@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Рукава МК"},
+  {"op": "replace", "path": "/description", "value": "[Особенный для Нэки]\nРукава к броне Нэки-агентов Миникнога."}
+]

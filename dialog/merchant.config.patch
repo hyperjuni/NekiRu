@@ -1,0 +1,936 @@
+[
+  [
+    {"op": "test", "path": "/merchantStart/human/default", "value": true},
+    {"op": "replace", "path": "/merchantStart/human/default",
+      "value": [
+        "Добро пожаловать в мою лавку!",
+        "Тебе что-нибудь приглянулось?",
+        "Чем могу помочь?"
+      ]
+    }
+  ],
+  [
+    {"op": "test", "path": "/follow/human/default", "value": true},
+    {"op": "replace", "path": "/follow/human/default",
+      "value": [
+        "Пойдём, поторгуем в моей лавке!",
+        "Пойдём, посмотришь, что у меня есть!"
+      ]
+    }
+  ],
+  [
+    {"op": "test", "path": "/tout/human/default", "value": true},
+    {"op": "replace", "path": "/tout/human/default",
+      "value": [
+        "Товары на продажу!",
+        "Эй, взгляни на мои превосходные товары!",
+        "У меня самые выгодные предложения!",
+        "Отдам за дёшево!"
+      ]
+    }
+  ],
+
+// --------------- merchantStart ---------------
+  [
+    {"op": "replace", "path": "/merchantStart/apex/neki",
+      "value": [
+        "У меня есть для тебя припасы, но давай поживее.",
+        "Мне не важно на чьей ты стороне.\nВажна только цена.",
+        "Закупайся всем что нужно, не пожалеешь.",
+        "Все мои товары законны и не содержат контрабанды!",
+        "Эй, поосторожнее с хвостом! Сломаешь - купишь!"
+      ]
+    },
+    {"op": "replace", "path": "/merchantStart/avian/neki",
+      "value": [
+        "Ты выглядишь, как любитель сделок... Или вкусно покушать.",
+        "Я - не самое вкусное что есть в наличии, взгляни и убедись!",
+        "Воу воу!\nСначала сделки, в жертву и охотника можно и потом!",
+        "Не обращай внимания на перья на товарах. Они - в подарок!",
+        "Мои товары одобрены Клюэксом!",
+        "У меня есть товары для всех - пушистых, пернатых и земноводных!",
+        "Купи у меня что-нибудь! Я коплю на собственный воздушный корабль.",
+        "Ищешь лавку? В моей для тебя точно что-нибудь найдётся."
+      ]
+    },
+    {"op": "replace", "path": "/merchantStart/floran/neki",
+      "value": [
+        "Флоран рад, что Нэки выбирает лавку Флорана!",
+        "Флоран хочет видеть что Нэки добыл сссвоими руко-ножами.",
+        "У Флорана есть товары, которые помогут лучшшше охотитссся",
+        "Добыча с охоты Нэки! Флоран рад купить.",
+        "Флоран приветссствует Нэки в лавке Флорана.",
+        "Флоран продассст Нэки товары для ссстреляния и резания!",
+        "У Нэки хорошшшая добыча? Нэки продассст добычу Флорану?",
+        "У Нэки есть мясссо для Флорана?"
+      ]
+    },
+    {"op": "replace", "path": "/merchantStart/glitch/neki",
+      "value": [
+        "Сердечно. Ты выглядишь как ценитель полезного! Глянь, что у меня есть.",
+        "Уговаривающе. Смотри какая у меня есть блестящая игрушка!",
+        "Восторженно. Я продаю игрушки, которые тебя заинтересуют!",
+        "Нервно. Я не на продажу! Зато всё остальное - да."
+      ]
+    },
+    {"op": "replace", "path": "/merchantStart/human/neki",
+      "value": [
+        "Гони своё бесполезное барахло, найду ему применение получше.",
+        "Всё отдам за то чтобы тебя поглa... Кхм!\nЗаходи, покупай!",
+        "Какие невинные глазки!\nТак уж и быть, держи скидосик.",
+        "Либо покупай, либо проваливай отсюда, животное.",
+        "И в чём же такое милое создание, как ты, нуждается?",
+        "Что, других лавок на нашлось?",
+        "Если ты что-нибудь сломаешь, то я тебе морду сломаю.",
+        "Покупай, что тебе там надо, и проваливай.",
+        "Не трать моё время впустую, блохотрон.",
+        "Клиент есть клиент, даже блохастый.",
+        "Вы только посмотрите, что к нам котяра волочёт.",
+        "Опять свой хлам тащишь?",
+        "Приступим к сделк.. а, это ты. Ох, у меня для тебя цены заготовлены...",
+        "Ты? Торговать со МНОЙ? Да я лучше продам тебя, как питомца!",
+        "Награда 'самого нежеланного клиента' достаётся...",
+        "Не линять мне на товары, ясно?!",
+        "Какое натыренное барахло ты тащишь на этот раз?"
+      ]
+    },
+  //  {"op": "replace", "path": "/merchantStart/hylotl/neki",
+  //    "value": [
+  //      "I hope we can make an exchange that contributes to your happiness.",
+  //      "Perhaps you might find some of my stock enriching.",
+  //      "Please feel free to peruse my wares.",
+  //      "An exchange of culture is always welcome, even better at a profit. What do you need?",
+  //      "I wonder what wonders you might have to trade, care to see what I have in kind?",
+  //      "I carry a nice selection, though I'll admit my seafood stock is rather low.",
+  //      "Care to trade any wares iconic of your species? It would be a pleasure.",
+  //      "So long as we can meet as equals, we can trade amicably."
+  //    ]
+  //  },
+    {"op": "replace", "path": "/merchantStart/novakid/neki",
+      "value": [
+        "Здорово, приятель!\nИщешь что-то особенное?",
+        "Приветствую, дружище!\nХочешь что-нибудь купить?",
+        "У меня полно товаров, что-нибудь интересует?",
+        "Тут могут быть находки - не поторгуешь, не узнаешь!",
+        "Высматриваешь клёвые штучки, нэки? Давай поторгуемся.",
+        "Ну ничего себе, ты же нэки! Уделишь минутку внимания моей лавчонке?",
+        "У тебя точно есть клёвые товары, как и у меня! Поторгуем?",
+        "Ну-ка, с чем котик к нам явился сегодня?"
+      ]
+    },
+  
+// --------------- merchantEnd ---------------
+
+    {"op": "replace", "path": "/merchantEnd/apex/neki",
+      "value": [
+        "Эх, если вы все агенты Миникнога были такими, как ты...",
+        "Спасибо за то, что не арестовали меня сегодня.",
+        "Ценю твоё благоразумие, агент.",
+        "Фух, сделка прошла без осложнений.",
+        "А ты точно нэки?\nА то ты как-то поразумнее других.",
+        "Ты всё же неплохой клиент, но не вини за осторожность.",
+        "Если кто спросит - то этой сделки никогда не было.",
+        "Благодарю за сделку, агент.",
+        "Эта сделка ведь останется между нами, да?"
+      ]
+    },
+    {"op": "replace", "path": "/merchantEnd/avian/neki",
+      "value": [
+        "Все мои перья ещё на месте?",
+        "Я всё ещё дышу!\nЭто так прекрасно!",
+        "Клюэкс благословил эту сделку... А так же меня, ибо я всё ещё дышу!",
+        "Спасибо тебе за пощаду, то-есть за сделку!",
+        "Пора валить с этой планеты как можно скорее."
+      ]
+    },
+    {"op": "replace", "path": "/merchantEnd/floran/neki",
+      "value": [
+        "Вернись, оссстанься, купи ещё!",
+        "Флоран надеется ссскоро увидеть Нэки снова.",
+        "Флоран продаёт лучшие шшштучки, возвращайся скорее.",
+        "Флоран доволен, надеется увидеть Нэки опять.",
+        "У Флорана для Нэки всссегда самая лучшая добыча!",
+        "Хорошая сссделка. Флоран надеется что Нэки принесёт ещё добычи!",
+        "Нэки удовлетворён? Возвращайссся ещё, покупай больше!",
+        "Флоран рад торговле ссс Нэки!"
+      ]
+    },
+  //  {"op": "replace", "path": "/merchantEnd/glitch/neki",
+  //    "value": [
+  //      "Insistent. Return soon!",
+  //      "Pleased. Thank you for your patronage.",
+  //      "Disappointed. You're not going to buy more?",
+  //      "Melancholy. Until next time, customer.",
+  //      "Diplomatic. Got more shiny finds for me? Double-check your pockets!",
+  //      "Discouraged. Nothing interesting enough? Perhaps next time.",
+  //      "Content. This was good business, please come again!",
+  //      "Gleeful. I look forward to our next transaction!"
+  //    ]
+  //  },
+    {"op": "replace", "path": "/merchantEnd/human/neki",
+      "value": [
+        "Вот так ты заключаешь сделки..? Как типично.",
+        "Знать не хочу, откуда у тебя вся эта рухлядь.",
+        "Ага, вали торговаться в другое место, блоахстик.",
+        "Это была самая паршивая сделка за всю историю сделок.",
+        "Фу, от этих пикселей несёт кошачьей мочой.",
+        "Пхх, какая бесполезная трата времени.",
+        "А теперь - брысь.",
+        "Как насчёт принести чего полезного в следующий раз?",
+        "Всё? Великолепно, теперь проваливай.",
+        "Так и не довелось полгла... А? Не обращай внимания."
+      ]
+    },
+    {"op": "replace", "path": "/merchantEnd/hylotl/neki",
+      "value": [
+        "Я ценю твои дружелюбие и милосердие. Пусть наше сотрудничество остаётся таким и дальше.",
+        "Заходи ещё, посмотришь на чудесные товары, которые мне удастся добыть в будущем.",
+        "Торговля, как видишь, куда более продуктивна чем охота друг на друга.",
+        "Я ценю твоё сотрудничество, а так же твоё милосердие."
+      ]
+    },
+    {"op": "replace", "path": "/merchantEnd/novakid/neki",
+      "value": [
+        "До скорых встреч, дружище!",
+        "Береги себя, коллега!",
+        "Если снова окажешься в этих краях - заходи на огонёк!",
+        "Увидимся, дружище!",
+        "Я всегда тут, если твои лапки добудут чего ещё!",
+        "Ну как, приглянулось что-нибудь? Заходи почаще!",
+        "Не забывай заглядывать ко мне почаще!",
+        "Надеюсь тебе всё понравилось!"
+      ]
+    },
+
+  // --------------- follow ---------------
+  
+    {"op": "replace", "path": "/follow/apex/neki",
+      "value": [
+        "Все мои товары законны, приглашаю тебя лично их осмотреть, агент.",
+        "Псс, агент! Мои товары могут тебя заинтересовать.",
+        "Следуй за мной, агент - не пожалеешь.",
+        "Какими бы ни были твои намерения, мы всегда сможем договориться."
+      ]
+    },
+  //  {"op": "replace", "path": "/follow/avian/neki",
+  //    "value": [
+  //      "Eek! Don't hurt me! I have goods to trade! Follow me, I promise!",
+  //      "If you follow me, we can trade, and hopefully not try to eat me."
+  //    ]
+  //  },
+    {"op": "replace", "path": "/follow/floran/neki",
+      "value": [
+        "Ссследуй за Флораном в лавку.",
+        "Лавка там, ссследуй за Флораном.",
+        "У Флорана есть всссякие штучки для Нэки! Идём!",
+        "Нэки торговать с Флораном, идти в лавку Флорана!"
+      ]
+    },
+    {"op": "replace", "path": "/follow/glitch/neki",
+      "value": [
+        "Радушно. Проследуем в мою лавку?",
+        "Завлекающе. Позволь отвести тебя в мою лавку.",
+        "Настоятельно. Пойдём ко мне в лавку, нэки, там уютнее.",
+        "Участливо. У вашего покорного слуги - всё для нэки!"
+      ]
+    },
+    {"op": "replace", "path": "/follow/human/neki",
+      "value": [
+        "Я вот пытаюсь понять, а у тебя пиксели, вообще, есть?",
+        "Что за ужасная вонь? Мне прямо нравится!",
+        "Пойдём со мной, котёночек."
+      ]
+    },
+  //  {"op": "replace", "path": "/follow/hylotl/neki",
+  //    "value": [
+  //      "Allow me to lead you to my store.",
+  //      "Can I show you to my shop? It's this way.",
+  //      "I can't think straight out here, come to my shop and we can trade.",
+  //      "I'd be most willing to trade with you, if you'll follow me to my shop..."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/follow/novakid/neki",
+  //    "value": [
+  //      "Right this way, partner.",
+  //      "Follow me, I'll show you my store.",
+  //      "Welcome, Neki! C'mon over to my stall an' we can trade!",
+  //      "Y'all caught me out in the open, come to my shop, we'll talk more there."
+  //    ]
+  //  },
+  
+  // --------------- welcome ---------------
+  
+  //  {"op": "replace", "path": "/welcome/apex/neki",
+  //    "value": [
+  //      "Now we are in private, we can talk business.",
+  //      "Ok, now we can trade.",
+  //      "We can begin our exchanges here, Agent.",
+  //      "Don't ask too many questions, let's just trade and get this business done."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/welcome/avian/neki",
+  //    "value": [
+  //      "Alright, now we're here, what can I get you?",
+  //      "Now we're here you can browse and find what you like.",
+  //      "Okay, here we are! Now let's trade, and you can spare me! Right?",
+  //      "Kluex bless me today! Let's trade now that we're here!"
+  //    ]
+  //  },
+    {"op": "replace", "path": "/welcome/floran/neki",
+      "value": [
+        "Вот и лавка Флорана. Что Нэки ищет?",
+        "Вот мы и прибыли! Что Флоран может предложить?",
+        "Нэки в лавке Флорана! Нэки торговать с Флораном!",
+        "Какая у Нэки есть добыча для Флорана?"
+      ]
+    },
+  //  {"op": "replace", "path": "/welcome/glitch/neki",
+  //    "value": [
+  //      "Excited. Now we can do business.",
+  //      "Pleased. Now we can trade to our hearts' content.",
+  //      "Comfortable. Finally, back at my shop. Let us barter!",
+  //      "Enthusiastic. We're here! Now, let me show you the fruits of my labor and commerce!"
+  //    ]
+  //  },
+    {"op": "replace", "path": "/welcome/human/neki",
+      "value": [
+        "Итак, пора опустошать кармашки.",
+        "А помнишь, я торчу тебе пиво?",
+        "Теперь, когда мы наедине..."
+      ]
+    },
+  //  {"op": "replace", "path": "/welcome/hylotl/neki",
+  //    "value": [
+  //      "Here we are, and welcome. What did you wish to buy?",
+  //      "Welcome to the seclusion of my store, I hope we can find what you need.",
+  //      "Thank you, being away from my shop gives me a headache. Here's my stock to browse.",
+  //      "Ah, shop sweet shop. Are you ready to trade now?"
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/welcome/novakid/neki",
+  //    "value": [
+  //      "Now we're here, care to make some trades?",
+  //      "Now we're at my store, you feelin' like makin' some trades?",
+  //      "My shop may not look like much, but I got a heck of a stock for ya!",
+  //      "Here's my shop, hope you like what I have to offer!"
+  //    ]
+  //  },
+  
+  // --------------- tout ---------------
+  
+    {"op": "replace", "path": "/tout/apex/neki",
+      "value": [
+        "Какие из моих товаров интересуют доблестного агента Миникнога?",
+        "Уверяю - все мои товары абсолютно законны!",
+        "Я никогда не торгую несанкционкой, клянусь!",
+        "Ты же ведь не намереваешься меня арестовывать, правда?",
+        "Я - официальный поставщик Миникнога, мои товары одобрены Большим Эйпом!",
+        "Можешь положиться на мои товары в грядущей битве!",
+        "Контрабанды в наличии не держу, только самые качественные товары."
+  //      "Are you in need of supplies, Agent? You have clearance to trade with me."
+      ]
+    },
+  //  {"op": "replace", "path": "/tout/avian/neki",
+  //    "value": [
+  //      "Come and trade!",
+  //      "Can I sell you anything? I buy too.",
+  //      "If you need to buy anything, I have a great selection.",
+  //      "Hey there. Need to buy or sell anything?",
+  //      "Kluex has blessed you all with the best deals...and may he bless me in this situation!",
+  //      "Ack! Umm...h-hi! Goods for sale! Everything I have is non-violently acquired!",
+  //      "My deals are as low as the sky is high...that made sense, right?",
+  //      "T-this might be the last deal I can make! Don't miss this!"
+  //    ]
+  //  },
+    {"op": "replace", "path": "/tout/floran/neki",
+      "value": [
+        "Покупай! Продавай!",
+        "Взззгляни на товары Флорана.",
+        "Лавка Флорана - лучшшшая! Покупай!",
+        "Товары Флорана по акции!",
+        "Заходи ссскупай всё! Флоран даст выгодную цену!",
+        "Нэки! Нэки всссегда лучший клиент! Подходи! Поторгуем!",
+        "Флорану нравится торговля! Поторгуй ссс Флораном!",
+        "Не бывает сссделки лучше сделки ссс Флораном!"
+      ]
+    },
+  //  {"op": "replace", "path": "/tout/glitch/neki",
+  //    "value": [
+  //      "Enticing. Come, buy!",
+  //      "Excited. Are you a customer?",
+  //      "Welcoming. Come and view my wares!",
+  //      "Proud. Come and buy from this merchant of great renown!",
+  //      "Alluring. You look positively sunny today! I bet you could use one of my wares!",
+  //      "Beckoning. Come and see what wondrous wares I carry!",
+  //      "Elated. A customer! Praythee, come and trade with me!",
+  //      "Welcoming. Hail! Welcome to my shop! Come, see my wares and supplies!"
+  //    ]
+  //  },
+    {"op": "replace", "path": "/tout/human/neki",
+      "value": [
+        "У меня есть отборные, эти... Что там тебе нравится?",
+        "Кися хочет орудий убийства?",
+        "Кс-кс-кссс...",
+        "Кися хочет вкусняшку?",
+        "Кися хочет игрушку?",
+        "Опять мохнатое! Пора распаковывать щётки для шерсти...",
+        "Товары по акц... То-есть, не в наличии! Всё распродано!",
+        "Тц, один из вас. Надо не забыть задрать цены.",
+        "С тобой, я поторгуюсь хоть за Воксели, хоть за Пиксели!"
+      ]
+    },
+  //  {"op": "replace", "path": "/tout/hylotl/neki",
+  //    "value": [
+  //      "My shop is resplendent with wares. Come and see.",
+  //      "I would be most pleased to sell you what you need.",
+  //      "Please feel welcome to peruse my wares.",
+  //      "I have many goods available, I'm sure you'd find something to please you.",
+  //      "Think you've seen it all? Think again! See my shop and find a new 'shiny' today!",
+  //      "Fine weapons, armor, and goods! You won't be disappointed! I buy goods too!",
+  //      "Some of the finest goods collected by us Hylotl! Don't pass us up!",
+  //      "A treasure trove of goods await any who come to my shop!"
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/tout/novakid/neki",
+  //    "value": [
+  //      "Y'all want any goods?",
+  //      "You feelin' lucky? You should be, 'cause I got some fine wares!",
+  //      "I got some mighty fine merch, right here!",
+  //      "If you have some pixels to spend, then I'm your friend!",
+  //      "Whether you're bringing in or buyin', I've got all your trading needs handled here!",
+  //      "Howdy, partner! I've got goods from all over the galaxy! Don't pass me up!",
+  //      "Don't be a stranger now; c'mon over and trade wit' me!",
+  //      "Got a minute to trade? Maybe more? I got your back!"
+  //    ]
+  //  },
+  
+  // --------------- tagCriteria ---------------
+  
+  //  {"op": "replace", "path": "/tagCriteria/apex/neki",
+  //    "value": [
+  //      "Please put my things back.",
+  //      "Stop taking things... You need to fix my store.",
+  //      "I need you to put things back where you got them please.",
+  //      "Big Ape does not approve of doing that...",
+  //      "Agent, you'd do best to put those back.",
+  //      "Put that back, Neki. Know your place."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/tagCriteria/avian/neki",
+  //    "value": [
+  //      "Um, this isn't what my shop was like before...",
+  //      "I don't like this, can you put things back how they were?",
+  //      "Please put my things back where they were.",
+  //      "H-hey! Put that back! Please?",
+  //      "I know Neki are known for knocking stuff over, but I kinda need that...",
+  //      "Could you please put that back? You didn't break it, but you didn't buy it either..."
+  //    ]
+  //  },
+    {"op": "replace", "path": "/tagCriteria/floran/neki",
+      "value": [
+        "Перессстань воровать...",
+        "Верни лавке Флорана бывалое величие!",
+        "Верни всё в лавке Флорана на месссто.",
+        "Лавка Флорана была прекрасссна! Исссправь её!",
+        "Нэки всё портит! Исссправь лавку, или Флоран заколет!",
+        "Флоран негодует! Нэки взял! Верни Флорану!",
+        "Флорану не нравится такой вид лавки; верни как было!"
+      ]
+    },
+    {"op": "replace", "path": "/tagCriteria/glitch/neki",
+      "value": [
+        "Растерянно. Тут что-то поменялось.",
+        "Недовольно. Мне не нравятся эти изменения, верни как было.",
+        "Тоскливо. Раньше было лучше...",
+        "Игриво. Нэки ныкает штучки? Забавно! А теперь положи на место.",
+        "Встревоженно. Что-то пропало? Верни, пожалуйста, на место.",
+        "Раздражённо. Моя лавка больше на себя не похожа, верни всё назад."
+      ]
+    },
+    {"op": "replace", "path": "/tagCriteria/human/neki",
+      "value": [
+        "Ещё раз что-нибудь тронешь, и моя нога тронет твой зад.",
+        "Ты что себе, тварь, позволяешь?!",
+        "Если ты ещё раз... То клянусь богом, я...",
+        "Лапы прочь!"
+  //      "Ha-ha, you Neki and knocking stuff over. It's not funny.",
+  //      "Looking to finish what you started? Put it back, now.",
+  //      "Stupid cat, put it back!"
+      ]
+    },
+  //  {"op": "replace", "path": "/tagCriteria/hylotl/neki",
+  //    "value": [
+  //      "Why have you disrupted my shop? Please fix what you have broken.",
+  //      "This is my store! Why would someone take things from it?",
+  //      "It is profoundly upsetting and thoroughly immoral to dismantle my shop in this way.",
+  //      "This place feels out of sorts, did you do this? Please return it to its rightful state.",
+  //      "Is this some sort of Neki rite of passage? I don't get it. Please fix what you moved.",
+  //      "My shop feels out of balance, could you please restore it for me?"
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/tagCriteria/novakid/neki",
+  //    "value": [
+  //      "Somethin's up round here...",
+  //      "This ol' store don't feel right just now. You been messin' around in here.",
+  //      "It ain't right to go rearrangin' a store like this.",
+  //      "The heck didya do to my store? Be a good partner an' right what's wrong, eh?",
+  //      "What's that ya knocked over there? Can ya put it back for me?",
+  //      "Things ain't right around here, somethin's missing. Can ya find it and put it back?"
+  //    ]
+  //  },
+  
+  // --------------- enclosedArea ---------------
+  
+  //  {"op": "replace", "path": "/enclosedArea/apex/neki",
+  //    "value": [
+  //      "There is a hole in my shop...",
+  //      "I need you to mend my walls before the roof falls in on top of us.",
+  //      "Please fix up these walls, the shop is no good to me like this.",
+  //      "The structural integrity of my shop is compromised. Agent, please help fix this.",
+  //      "This building isn't up to code anymore; someone please fix this.",
+  //      "This place might collapse at any moment; please find the flaw and fix it, Agent."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/enclosedArea/avian/neki",
+  //    "value": [
+  //      "It's hard to trade in a shop with no walls. Can you repair the damage?",
+  //      "Would you mind fixing my walls?",
+  //      "That wall is badly damaged, I'm worried I'll lose custom... Can you fix it?",
+  //      "I can't read the runes I inscribed on the walls, I think something's missing. Could you fix it?",
+  //      "I love the sky, but not when it's unfettered into my home. Could you repair the walls?",
+  //      "Must've been some sort of shift in my place, the walls are broken. Please help repair them."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/enclosedArea/floran/neki",
+  //    "value": [
+  //      "Please fix Floran's wallsss.",
+  //      "Floran's shop is broken. Can you fix it?",
+  //      "Floran likess pixels, can't get pixelss with walls like this. Can you fix walls?",
+  //      "Home feels cold with wallsss like this. Fix Floran's walls, ssso not as cold.",
+  //      "Floran can see sssky through walls. Nice, but wrong. Fix walls please.",
+  //      "Ssshop look wrong with holes. Patch walls for Floran.",
+  //    ]
+  //  },
+    {"op": "replace", "path": "/enclosedArea/glitch/neki",
+      "value": [
+        "Подавленно. В стенах дыры, и оборот клиентов упал. Поможешь исправить?",
+        "Встревоженно. Эти разрушенные стены отпугивают клиентов, нужен срочный ремонт.",
+        "Неунывающе. Отремонтируешь мою лавку? Тогда, может, и клиенты вернутся!",
+        "Раздражённо. Мне только вредителей, лезущих через эти дыры, не хватает! Отремонтируй, пожалуйста.",
+        "Расстроенно. Стены проржавели! Сможешь их подлатать?",
+        "Обеспокоенно. В таком виде, моя лавка вот-вот рухнет. Отремонтируй, пожалуйста, стены."
+      ]
+    },
+    {"op": "replace", "path": "/enclosedArea/human/neki",
+      "value": [
+        "Это моя лавка, а не твоя вонючая коробка! Дыры мне здесь не нужны!",
+        "Если ты не заделаешь дыры в моих стенах, то я проделаю дыры в твоей морде!",
+        "Я заткну эту дыру твоей задницей, если ты сейчас же её не заделаешь!",
+        "Серьёзно?! Дыры в стенах?!",
+        "Ты что делаешь со стенами, гнида?! Немедленно исправь, а не то я исправлю твою морду!",
+  //      "Come on! I know you can all scratch holes in things, but my walls?!",
+        "Убери к чёрту свои когти, и почини мои стены! А теряю клиентов!"
+      ]
+    },
+    {"op": "replace", "path": "/enclosedArea/hylotl/neki",
+      "value": [
+        "Моя лавка подвержена стихиям, невозможно вести дела при таких обстоятельствах.",
+        "Мне будет невероятно приятно, если ты отремонтируешь стены моей лавки.",
+        "Эти повреждения явно отпугивают клиентов. Отремонтируй их, пожалуйста.",
+        "Воздух суховат, кажется где-то продувает. Сможешь найти и заделать пробоину?",
+        "Моя лавка не цела, в ней имеются отверстия. Пожалуйста, найди и заделай их.",
+        "Хоть я и люблю капли дождя на коже, но мои товары - не очень. Заделай отверстия, пожалуйста."
+      ]
+    },
+  //  {"op": "replace", "path": "/enclosedArea/novakid/neki",
+  //    "value": [
+  //      "I'm not the only one feelin' a breeze in here, am I?",
+  //      "This place has got more holes in it than a sheriff at a shoot out.",
+  //      "I ain't gonna get no customers with a store that has holes in it!",
+  //      "I'm dense enough to not seep through the walls, but would still like those holes filled.",
+  //      "I like me some light comin' in, but this is a bit much. Can ya seal the holes?",
+  //      "Nope, these holes ain't gonna do for my place. Ya able to get this fixed up?"
+  //    ]
+  //  },
+  
+  // --------------- otherDeed ---------------
+  
+  //  {"op": "replace", "path": "/otherDeed/apex/neki",
+  //    "value": [
+  //      "Why is there another deed here? What are you trying to pull?",
+  //      "This is my shop. I rent it from you. You can not move someone else in.",
+  //      "It is not ok to do this. I will not share my store.",
+  //      "A second deed? All of us are guaranteed one owner per dwelling.",
+  //      "I'm not looking for roommates, and isn't a second deed considered forgery?",
+  //      "If someone else is moving in nearby, might want to put that deed elsewhere."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/otherDeed/avian/neki",
+  //    "value": [
+  //      "Why is someone else attempting to move into my store?",
+  //      "Did you put my shop up for rent? This must be a mistake...",
+  //      "There is another deed in my shop - Surely this isn't intentional.",
+  //      "I know Kluex always lives with me, but I don't think he needs a deed alongside mine!",
+  //      "I don't have any partners in my shop, what's with the other deed?",
+  //      "Although us Avians do have nests of eggs, we don't do that after we hatch. Remove the extra deed!"
+  //    ]
+  //  },
+    {"op": "replace", "path": "/otherDeed/floran/neki",
+      "value": [
+        "Флорану нужно всё проссстранство, Флоран не будет делиться ссс чужаками!",
+        "Есссли ты кого-нибудь подссселишь, то Флоран их съест!",
+        "Флоран не собирается делиться лавкой! Сссними второй договор!",
+        "Флоран не будет делить проссстранстцо ни с кем, даже ссс другим Флораном.",
+        "Флорану и так хорошо, не нужно ещё договор!",
+        "Одного договора доссстаточно, Флорану не нужны сожители!"
+      ]
+    },
+    {"op": "replace", "path": "/otherDeed/glitch/neki",
+      "value": [
+        "Шокированно. Ты намереваешься подселить ко мне ещё торговца?",
+        "Растерянно. Это же моя лавка, я не могу разделять её с другими...",
+        "Опечаленно. Мне казалось, что эта лавка предназначена исключительно для меня.",
+        "Настойчиво. Я не смогу разделять это пространство с другими. Убери, пожалуйста, второй договор.",
+        "Озадаченно. С каких это пор мой бизнес вдруг стал кооперативным?",
+        "Остроумно. Двое хороши в одной лодке, но не за одним прилавком."
+      ]
+    },
+    {"op": "replace", "path": "/otherDeed/human/neki",
+      "value": [
+        "Жить в тесной коробке с животными - твоя прерогатива, а я человек!",
+        "Если ты ко мне кого-нибудь подселишь, то я за себя не ручаюсь!",
+        "Мне не нужны напарники, так что убирай это дерьмо отсюда!",
+        "Это ещё что за ерунда? Я не потерплю такого!",
+        "Либо ты убираешь второй договор, либо отсюда убираюсь я.",
+        "Ты всерьёз считаешь, что я хочу сожителей?!",
+        "Мне что, по-твоему, нужны сожители?!"
+      ]
+    },
+  //  {"op": "replace", "path": "/otherDeed/hylotl/neki",
+  //    "value": [
+  //      "I don't wish to share my shop with a stranger.",
+  //      "Passive or not, I cannot stand by as you ensconce a second merchant in my shop.",
+  //      "There is another deed in my shop? Surely a mistake has been made?",
+  //      "I'll feel suffocated if I have to have another living here, please remove that deed.",
+  //      "I don't share accommodations with anyone, where would I put all my artwork?",
+  //      "My home is a home of one; I won't agree to stay with another deed here."
+  //    ]
+  //  },
+    {"op": "replace", "path": "/otherDeed/novakid/neki",
+      "value": [
+        "Это МОЯ лавчонка, кого это ты мне сюда подселить собираешься?",
+        "Эта старая хибара - не коммуналка! Сними, пожалуй, второй договор, приятель.",
+        "Это моя лавка, чёрт побери, и я не собираюсь её ни с кем делить!",
+        "Это лавчонка одиночки, даже не думай расширять мне тут персонал, слышишь?!",
+        "Я - волк-одиночка, приятель. Меня унесёт ветром если ты не унесёшь второй договор."
+  //      "I don't need an assistant here, or a roommate. Get that deed outta here."
+      ]
+    },
+  
+  // --------------- severe ---------------
+  
+  //  {"op": "replace", "path": "/severe/apex/neki",
+  //    "value": [
+  //      "Look at this place! Fix my shop, or I leave.",
+  //      "I cannot cope with your indifference much longer...",
+  //      "It is foolish to ignore an angry Apex. I suggest you fix my store.",
+  //      "I can't work here under these conditions. Fix up this store, or I pack up.",
+  //      "This place isn't adequate for my business. I won't put up with it...",
+  //      "Apex aren't known for their patience, Miniknog or not. Fix my shop, immediately."
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/severe/avian/neki",
+  //    "value": [
+  //      "This has gone too far, I need you to fix things!",
+  //      "I can't put up with this much longer - look at the state of my shop.",
+  //      "My usually resilient patience is beginning to wear thin. Fix my shop.",
+  //      "Kluex's wrath will soon be upon me if my place isn't fixed up!",
+  //      "I don't feel safe in these conditions; fix this place, or I'll need to fly away!",
+  //      "This is unreasonable! How am I supposed to trade in these conditions? Fix it now!"
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/severe/floran/neki",
+  //    "value": [
+  //      "Floran can't work like thisss!",
+  //      "Floran is angry, fix Floran's shop.",
+  //      "You sssstill haven't fixed things in Floran's shop!",
+  //      "Floran's losing patience...and customers! Fix Floran's sshop now!",
+  //      "Sstore is sstill not fixed! Fix, fix, Floran ssays fix!",
+  //      "Floran furious over sstate of sshop!"
+  //    ]
+  //  },
+  //  {"op": "replace", "path": "/severe/glitch/neki",
+  //    "value": [
+  //      "Aggrevated. You need to improve these conditions, it is impossible to work here.",
+  //      "Frustrated. I wish my requests were listened to.",
+  //      "Unhappy. The fixes to my store haven't been made.",
+  //      "Cantankerous. My business is suffering with how the shop looks!",
+  //      "Mad. This shop is awful, I can't stand working here much longer.",
+  //      "Desolate. All my customers are going to pass by a shop that looks like this..."
+  //    ]
+  //  },
+    {"op": "replace", "path": "/severe/human/neki",
+      "value": [
+        "Тебе, может, так нормально, но мне - совсем нет. Исправь немедленно!",
+        "Последний раз говорю: отремонтируй лавку или я за себя не ручаюсь!",
+        "У меня почти не осталось терпения на всё это.",
+        "Мне твои закидоны уже реально ВОТ ТУТ сидят!",
+        "Если не стихии, то этот сарай-развалюха меня точно прикончит! Сделай уже что-нибудь!",
+        "Это место - отстой! Если всё и дальше будет так продолжаться, то я пас.",
+        "Алло, тут кто-нибудь ремонтировать собирается? Это же безобразие!"
+      ]
+    },
+    {"op": "replace", "path": "/severe/hylotl/neki",
+      "value": [
+        "Мои просьбы остаются без ответа, мои мольбы не услышаны... Позор.",
+        "Эти условия - прискорбны, а твоё поведение - постыдно.",
+        "Это просто унизительно, я требую ремонта своей лавки.",
+        "Эти условия непригодны для моей сферы деятельности; это и неудобно и неприглядно!",
+        "Такой плачевный вид лавки отпугивает покупателей; исправь пожалуйста, иначе мне придётся её покинуть.",
+        "Баланс этого места всё ещё нарушен, я долго так не продержусь."
+      ]
+    },
+    {"op": "replace", "path": "/severe/novakid/neki",
+      "value": [
+        "Тебе, по ходу, пора ремонтиком заняться, дружище, иначе я уношу ноги.",
+        "Эта забегаловка - сплошное разочарование! Ремонтик будет, или мне валить?",
+        "Моя лавка уже не как в былые времена... Пора бы её исправить, а не то и меня здесь не будет.",
+        "Надеюсь, ты всё скоро исправишь, а то меня уже начинает манить в закат.",
+        "Тю, да в моей лавке сухо, как в пустыне! Что там с ремонтом? Я долго так не протяну.",
+        "Даже в змеиной яме работать приятнее! Устранишь неполадки, или мне устранить себя?"
+      ]
+    },
+  
+  // --------------- final ---------------
+  
+    {"op": "replace", "path": "/final/apex/neki",
+      "value": [
+        "Не знаю, почему мне показалось, что от тебя можно ожидать большего. Прощай.",
+        "Глупо было ожидать чего-то лучшего от творения рук Миникнога.",
+        "Ты даже хуже чем слухи о тебе, и моё доверие оказалось ошибочным.",
+        "Никогда больше не буду иметь дела с нэки. Пока.",
+        "Моё терпение исчерпалось, пора поискать другое жильё.",
+        "Никакая свобода не стоит такого! Вернусь, лучше, под гнёт Миникнога!",
+        "Я ухожу, и намереваюсь доложить об этом руководству!"
+      ]
+    },
+    {"op": "replace", "path": "/final/avian/neki",
+      "value": [
+        "Хоть меня и не слопали, твоё отношение - это перебор. Я ухожу.",
+        "Это место больше не является безопасным гнёздышком, пора его покинуть.",
+        "Это место больше не для меня, пришла моя пора ступить в светлое будущее!",
+        "Без нормальных условий, я тут больше работать не буду. До свидания!",
+        "Я оставляю тебя наедине с правосудием Клюэкса, удачи."
+      ]
+    },
+    {"op": "replace", "path": "/final/floran/neki",
+      "value": [
+        "Флоран разззочарован в Нэки. Флоран больше не может так торговать. Флоран уходит.",
+        "Флоран любит Нэки, но Нэки плохо относссится к Флорану. Флорану нужно уйти.",
+        "Флоран ожидал лучшего от Нэки. Флоран больше не может оссставаться.",
+        "С Флорана хватит, Флоран найдёт месссто получше!",
+        "Флоран больше не может этого выносссить! Флорану пора!",
+        "Флоран найдёт другое месссто для торговли!"
+      ]
+    },
+    {"op": "replace", "path": "/final/glitch/neki",
+      "value": [
+        "Устало. Это превыше моих сил. Мне пора покинуть это место.",
+        "Разочарованно. Я заслуживаю лавки получше, но явно не от тебя.",
+        "Расстроенно. Я сожалею что дошло до этого, но я больше не могу тут оставаться.",
+        "Рассудительно. Совершенно очевидно, что дела не наладятся. Поищу жильё получше.",
+        "Сердито. Это уже слишком! Я ухожу, и больше не вернусь!",
+        "Подавленно. Моя энергия исчерпана, мне пора собираться."
+      ]
+    },
+    {"op": "replace", "path": "/final/human/neki",
+      "value": [
+        "Мои ожидания всё-же не учли твоей беспредельной халатности. Бывай!",
+        "А ведь меня же предупреждали - не связываться с нэки...",
+        "Всё, с меня хватит.\nЯ хрусталь, я мухо-жук!",
+        "Знаешь что? Катись-ка ты к блохам кошачьим!",
+        "Всё коту под хвост! Поторгую, пожалуй, в другом месте.",
+        "Перекантуюсь, пожалуй, где-нибудь поприличнее этой помойки.",
+        "Никакой помощи? Тогда и никакой лавки! Пока!"
+      ]
+    },
+    {"op": "replace", "path": "/final/hylotl/neki",
+      "value": [
+        "Я больше не могу так вести дела. Пора искать более пристойные условия.",
+        "Моё уважение к тебе утрачено. Надеюсь, когда-нибудь, ты поймёшь почему.",
+        "Эти условия пагубно влияют на мою психику. Пришла пора взять судьбу в свои руки!",
+        "Обидно, что причиной моего ухода стали такие обстоятельства. Всего наилучшего.",
+        "Не смотря на свою 'уникальность', такие условия обитания мне не подходят. Прощай.",
+        "Я не вижу оправдания происходящему. Надеюсь, мой уход заставит тебя задуматься."
+      ]
+    },
+    {"op": "replace", "path": "/final/novakid/neki",
+      "value": [
+        "Эта лавка в большем запущении, чем водопой флуффало! Я - всё.",
+        "Да я лучше посплю на кактусе, чем проведу здесь ещё хоть одну ночь!.",
+        "Беспредел! Какой же тут бардак! Я, короче, всё.\nДосвидули.",
+        "Это место непригодно для уважающих себя жильцов! Я в курсе где выход.",
+        "С тем как тут обстоят делишки, мне совсем неохота оставаться. Пока!",
+        "Кажись, мне пора шевелить копытами, дружище! Адиос!"
+      ]
+    },
+  
+  // --------------- beacon ---------------
+  
+    {"op": "replace", "path": "/beacon/apex/neki",
+      "value": [
+        "Откликаюсь на твой зов! Чем могу угодить?",
+        "В чём дело, друг? Ты в чём-то нуждаешься?",
+        "Покупаешь, или думаешь продать?",
+        "Я здесь чтобы служить тебе, агент. Поторгуем?",
+        "Добрый день, агент. Какова причина вызова?",
+        "Здравия желаю, агент. Чем могу услужить?"
+      ]
+    },
+    {"op": "replace", "path": "/beacon/avian/neki",
+      "value": [
+  //      "Hi, nice to see you. You hoping to buy something?",
+  //      "Hello again! What can I help you with?",
+  //      "Always glad to see a friendly face. What can I get you?",
+        "Клюэкс, храни! Надеюсь, ты будешь торговать, а не убивать?",
+        "Я тебе не еда дом! Давай лучше поторгуем.",
+        "Прив.. Ой! Нэки! Для чего я здесь?!"
+      ]
+    },
+    {"op": "replace", "path": "/beacon/floran/neki",
+      "value": [
+        "Хочешшшь купить что-нибудь у Флорана?",
+        "Нэки нуждаетссся в помощи Флорана?",
+        "Нэки иссскал Флорана?",
+        "Нэки призззвал Флорана, Нэки хочет торговать ссс Флораном?",
+        "Флоран хочет резззать, но Флоран может и поторговать!",
+        "Флоран прибыл чтобы торговать ссс Нэки!"
+      ]
+    },
+    {"op": "replace", "path": "/beacon/glitch/neki",
+      "value": [
+        "Весело. Вот и я! Покупаем, продаём?",
+        "Вежливо. Чем могу тебе угодить?",
+        "Дружелюбно. В чём нуждаешься?",
+        "Торжественно. Вот и я, спаситель перегруженных рюкзаков!",
+        "Энергично. Вот это призыв! Чем могу помочь?",
+        "Уверенно. Я удовлетворю все твои торговые нужды!"
+      ]
+    },
+    {"op": "replace", "path": "/beacon/human/neki",
+      "value": [
+        "Чем могу снабдить такую пушистую милашку?",
+        "А на этот раз можно тебя погладить?\nНет?\nНу ладно.",
+        "Какое дерьмецо собираешься сбагрить мне на этот раз?",
+        "Хоть купи что-нибудь в этот раз.",
+        "Тебе повезло что я в хорошем настроении.",
+        "Давай скорее, я спешу.",
+        "Не трать моё время впустую.",
+        "Как раз тебя мне и хотелось увидеть!",
+        "Надеюсь, я тут не зря.",
+        "Потрясающе.\nОпять ты.",
+        "Чего тебе надо?",
+        "Ты, кажется, не по адресу. С чего бы мне торговать с нэки?",
+        "Ты тратишь моё драгоценное время!",
+        "Только тебя мне не хватало. Чего ты меня зовёшь?"
+      ]
+    },
+    {"op": "replace", "path": "/beacon/hylotl/neki",
+      "value": [
+        "Что желаешь обсудить? Или ищешь чего-то иного?",
+        "Приветствую. Желаешь поторговать со мной?",
+        "Чем могу тебе угодить сегодня?",
+        "Здравствуй, нэки. Если ты с миром, то можешь взглянуть на мои товары.",
+        "Я всегда за торговлю искусством, культурой и раритетами!",
+        "Люблю эффектно явиться. Приступим к торговле?"
+      ]
+    },
+    {"op": "replace", "path": "/beacon/novakid/neki",
+      "value": [
+        "Чем могу порадовать, дружище?",
+        "Хочешь чутка поторговать?",
+        "Ты зовёшь - я несусь! Что желаешь купить?",
+        "Люблю пафосно появляться! И пафосные сделки, тоже!",
+        "Привет! У меня для тебя куча интересного, а у тебя для меня?",
+        "Звали поставщика? Вот и я! Сейчас всё поставлю."
+      ]
+    },
+  
+  // --------------- rent ---------------
+  
+  //  {"op": "replace", "path": "/rent/apex/neki",
+  //    "value": [
+  //      "This present is for you, to say thank you.",
+  //      "Business is good. This is your thank you present.",
+  //      "My business is flourishing! Please take this gift, with my thanks.",
+  //      "This venture has been very successful, Agent. Please accept some of the fruits of my business.",
+  //      "Business here is quite good, Agent. I've been permitted to share with you this gift.",
+  //      "Here's your cut of the profits, Agent."
+  //    ]
+  //  },
+    {"op": "replace", "path": "/rent/avian/neki",
+      "value": [
+        "Этот подарок - в награду за твоё сотрудничество!",
+        "У меня для тебя есть подарочек, надеюсь тебе понравится.",
+        "Надеюсь тебе понравится мой подарок!",
+        "Поразительно, насколько хорошо идут дела! Держи долю прибыли, ты этого заслуживаешь.",
+        "А ты мне даже нравишься, нэки. Прими вот это как жест доброй воли.",
+        "Ты вселяешь в меня уверенность, нэки. Прими это в знак моей благодарности."
+      ]
+    },
+    {"op": "replace", "path": "/rent/floran/neki",
+      "value": [
+        "Вот сссувенир для Нэки!",
+        "Флоран даёт это Нэки в знак благодарносссти.",
+        "Флорану нравитссся лавка у Нэки, Флоран дарит подарок.",
+        "Флоран рад что Нэки предоссставляет лавку! Флоран делит прибыль ссс Нэки!",
+        "Дела хороши ссс Нэки-домовладельцем. Флоран даёт Нэки часссть выручки!",
+        "Блессстяшки в награду Нэки за хорошую лавку! Одобрение Флорана!"
+      ]
+    },
+    {"op": "replace", "path": "/rent/glitch/neki",
+      "value": [
+        "Признательно. Прими это в знак благодарности за твоё покровительство.",
+        "Благодарно. Пожалуйста, прими это в знак благодарности за помощь с лавкой.",
+        "Оптимистично. Дела идут отлично! Вот тебе небольшой подарок в честь этого!",
+        "Дружно. Вот твоя доля прибыли. Давай и дальше работать вместе!",
+        "Милосердно. Хочу поделиться с тобой своими вложениями, за отличный бизнес.",
+        "Щедро. Ты - хороший друг. Вот, в награду за твою преданность делу."
+      ]
+    },
+    {"op": "replace", "path": "/rent/human/neki",
+      "value": [
+        "А можно в следующий раз почесать тебя за ушком?\nНет?\nНу ладно...",
+        "Тебе казалось, что ты заслуживаешь большего?\nСочувствую.",
+        "Бери, а то передумаю.",
+        "Ладно, так уж и быть - держи.",
+        "Это всё, чего ты заслуживаешь.",
+        "А ты, оказывается, надёжный партнёр. Прими это, вместе с моим извинением.",
+        "Вот твоя доля. Если что - я тебя не знаю.",
+        "Я всегда плачу по заслугам, даже если ты мне не нравишься."
+      ]
+    },
+    {"op": "replace", "path": "/rent/hylotl/neki",
+      "value": [
+        "Прими, пожалуйста, этот сувенир в знак моей благодарности.",
+        "Преподношу тебе этот сувенир с моей глубочайшей благодарностью.",
+        "Надеюсь, этот скромный подарок достойно выразит всю мою признательность.",
+        "Признаюсь, тебе удалось опровергнуть мои предрассудки. Вот, в знак нашей дружбы.",
+        "Похоже, наше сотрудничество весьма плодотворно. Вот твоя доля продаж.",
+        "Полагаю, ты найдёшь достойное применение этому подарку."
+      ]
+    },
+    {"op": "replace", "path": "/rent/novakid/neki",
+      "value": [
+        "Держи небольшой сувенирчик, дружище. Благодарствую.",
+        "А мы с тобой неплохую лавчонку отгрохали, коллега. Держи долю.",
+        "Без тебя мне бы не удалось пробиться. Вот, по заслугам.",
+        "Даже не знаю как тебя отблагодарить! Возьми, пока, вот это.",
+        "На, это тебе, распоряжайся этим как захочешь.",
+        "А мы с тобой неплохо сработались! Вот твоя часть навара.",
+        "Надеюсь, тебе это пригодится! Твоими стараниями!",
+        "Из тебя отличный коллега, коллега! Вот твоя доля выручки."
+      ]
+    }
+  ]
+]

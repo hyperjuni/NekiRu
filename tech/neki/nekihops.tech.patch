@@ -1,0 +1,5 @@
+[
+  {"op": "replace", "path": "/description",
+    "value": "2х тык ^green;[A]^reset;/^green;[D]^reset; - скакать, зажать ^green;[S]^reset; и тык ^green;[W]^reset; - наскок!"},
+  {"op": "replace", "path": "/shortDescription", "value": "Нэки Скок"}
+]

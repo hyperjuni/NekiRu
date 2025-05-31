@@ -1,0 +1,37 @@
+[
+  {"op": "replace", "path": "/scriptConfig/dialog/floranmissionstart/introduction/default/neki",
+    "value": [
+      "Ого! Нэки! Ты сссобираешься участвовать в охоте? Кажется, будет интересссно...",
+      "Кто я?\nЯ - ^orange;Нуру^reset;, самая юная чемпионка во всей иссстории охоты.",
+      "Если чессстно - то я впечатлена! Точнее, буду впечатлена, есссли тебе удастся выжить.",
+      "Флоране годами оттачивают сссвои навыки в этих подземельях; как мастера, точащие оссстриё копья.",
+      "Большшшинство из них, правда, погибают...\nВ общем - удачи, пушистик!"
+    ]
+  },
+  
+  {"op": "replace", "path": "/scriptConfig/dialog/floranmissionstart/end/default/neki",
+    "value": [
+      "Других охотников ждёт интересссный сюрприз!"
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/floranmissionswitch/hello/default/neki",
+    "value": [
+      "Эй! Сссюда!",
+      "Неплохо, нэки, неплохо."
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/floranmissionswitch/stuck/default/neki",
+    "value": [
+      "Правда, теперь - ты в тупике. Молодец!",
+      "Ладно, открою тебе.\nЧто-то мне подсссказывает что я об этом не пожалею."
+    ]
+  },
+
+  {"op": "replace", "path": "/scriptConfig/dialog/endscene/smalltalk/default/neki",
+    "value": [
+      "А это, кссстати, было неплохо!\nДаже для нэки."
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки-штучка, Огонь"},
+  {"op": "replace", "path": "/description", "value": "Странна огненная штуковина, может пригодиться для улучшений."}
+]

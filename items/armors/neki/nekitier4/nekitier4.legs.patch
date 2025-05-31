@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки Т4 Доспехи"},
+  {"op": "replace", "path": "/description", "value": "\"Всегда надо прредохарняться!\""}
+]

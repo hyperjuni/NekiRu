@@ -1,0 +1,13 @@
+[
+  {"op": "replace", "path": "/identity/name",
+    "value": "Страйпс"
+  },
+  
+  {"op": "replace", "path": "/scriptConfig/dialog/converse/default/default/0",
+    "value": "Как я оказалась в чужом теле?!"
+  },
+  
+  {"op": "replace", "path": "/scriptConfig/dialog/converse/nekistripes/default/0",
+    "value": "Привет, я - ^orange;<selfname>^reset;! Понятия не имею, как я тут оказалась..."
+  }
+]

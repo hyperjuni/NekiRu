@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки Т3 Когти"},
+  {"op": "replace", "path": "/description", "value": "Заклятый враг мебели."}
+]

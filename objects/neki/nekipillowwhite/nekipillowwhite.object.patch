@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Пуфик из муши? Прикольно."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Он пухнастый, красивенький, и обалденно пахнет!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Ужасное зрелище, результат бессмысленного убийства невинных созданий. Омерзительно."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "У моей бабки такая шкура на стене висела!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Встревоженно. Обтягивать мебель шкурами животных считается стильным?"
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флоран одобряет подуху иззз трофеев охоты."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Полагаю, что такое применение для шкуры полезнее, чем просто вешать её на стену."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Пуфик, обёрнутый в шкуру с ярким красивым узором."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Полосатый белый пуфик, обёрнутый в шкуру животного."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Пуфик Нэки, белый"
+  }
+]

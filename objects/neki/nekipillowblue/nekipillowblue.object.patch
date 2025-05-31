@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Не вдупляю чёт, нахрена это нужно?"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Это же куда лучше, чем тот дуррацкий синий мешок."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Ни оригинал, ни это... Переосмысление, не кажутся мне особо удобными."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Ну вот и зачем было портить такой хороший спальник?!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Сарказм. Великолепно, теперь этот спальник ещё бесполезнее."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Дуратсский мешок теперь сиденье! Флоран в восссторге!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Какой удобный пуфик, будто бы он набит... Эй, минуточку..."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Интересное применение для спальника."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Синий спальник, набитый перьями."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Пуфик Нэки, синий"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Какие милые трусишки!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Штучка на палочке, пахнущая своим хозяином!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Что за непристойное существо столь вульгарно вывесило своё нижнее бельё всем напоказ?"
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Кому как нравится свою территорию метить..."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Насмешливо. Где-то, кто-то носится без трусов."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флаг имеет Нэки-запах, Нэки-запах радует Флорана!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Неплохое применение нижнему белью... Моё постоянно путается в перьях!"
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Хм... Наверное, на каком-то исключительно животном уровне, в этом есть логика."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Ну... Можно и так территорию метить."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Флаг Нэки"
+  }
+]

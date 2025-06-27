@@ -1,1 +1,1 @@
-[{"op":"replace","path":"/nekiDescription","value":"*звуки безудержного восторга*"}]
+[{"op":"replace","path":"/nekiDescription","value":"^gray;*звуки безудержного восторга*^reset;"}]

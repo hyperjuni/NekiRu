@@ -1,1 +1,1 @@
-[{"op":"replace","path":"/nekiDescription","value":"*яростно пялится*"}]
+[{"op":"replace","path":"/nekiDescription","value":"^gray;*яростно пялится*^reset;"}]

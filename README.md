@@ -23,4 +23,4 @@
 
 * [Мод Neki](https://github.com/hyperjuni/Neki)
 * [Мастерская Steam](https://steamcommunity.com/workshop/filedetails/?id=3483015967)
-* Заходите поообщаться на [Дискорд Neki](https://discord.gg/Neki)
+* Заходите поообщаться на [Дискорд Neki](https://discord.com/invite/R6tfkazYgb)

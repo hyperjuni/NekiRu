@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Пушап, длинный+"},
+  {"op": "replace", "path": "/description", "value": "Вряд ли есть более полезное применение моим шарам."}
+]

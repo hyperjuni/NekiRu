@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Форма Миротв. с пушапом"},
+  {"op": "replace", "path": "/description", "value": "Нэки-форма Миротворца с забавными вставками."}
+]

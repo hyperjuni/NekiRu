@@ -1,4 +1,4 @@
 [
   {"op": "replace", "path": "/shortdescription", "value": "Форма Миротворца Нэки"},
-  {"op": "replace", "path": "/description", "value": "Вариант формы Миротворца, приспособленный под физиологию Нэки."}
+  {"op": "replace", "path": "/description", "value": "Вариант формы Миротворца, приспособленный под физиологию нэки."}
 ]

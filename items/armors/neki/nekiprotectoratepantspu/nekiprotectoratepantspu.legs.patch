@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Штаны Протек. с пушапом"},
+  {"op": "replace", "path": "/description", "value": "Нэки-форма Протектората с забавными вставками."}
+]

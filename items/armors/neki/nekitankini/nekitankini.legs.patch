@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Танкини"},
+  {"op": "replace", "path": "/description", "value": "Зовам природы суждено остаться неотвеченными."}
+]

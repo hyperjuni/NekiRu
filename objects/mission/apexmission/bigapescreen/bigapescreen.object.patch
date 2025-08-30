@@ -1,1 +1,1 @@
-[{"op":"replace","path":"/nekiDescription","value":"^gray;*пялится*^reset;... НЕТ!"}]
+[{"op":"replace","path":"/nekiDescription","value":"^gray;*пялится*^reset;\nНЕТ!"}]

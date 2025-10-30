@@ -1,6 +1,6 @@
 [
   {"op": "replace", "path": "/novakidDescription",
-   "value": "Скрытный шкафчик для скрытия барахлишка."
+   "value": "Скрытный шкафчик для скрывания барахлишка."
   },
   {"op": "replace", "path": "/nekiDescription",
     "value": "Скрытный стено-домик для скрытных дрыхов."

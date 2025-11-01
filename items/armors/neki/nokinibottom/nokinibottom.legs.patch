@@ -1,4 +1,4 @@
 [
   {"op": "replace", "path": "/shortdescription", "value": "Нэкини-мини, низ"},
-  {"op": "replace", "path": "/description", "value": "Неуютнейшие труселя."}
+  {"op": "replace", "path": "/description", "value": "Неуютнейшие труселя.\n\nСозданы для цензурных внешек персонажа."}
 ]

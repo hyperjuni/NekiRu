@@ -1,4 +1,4 @@
 [
   {"op": "replace", "path": "/shortdescription", "value": "Нэки: Безбретелька-мини"},
-  {"op": "replace", "path": "/description", "value": "Жопка без хлопка."}
+  {"op": "replace", "path": "/description", "value": "Жопка без хлопка.\n\nСоздана для цензурных внешек персонажа."}
 ]

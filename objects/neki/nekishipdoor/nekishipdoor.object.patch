@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Дверь того типа, который зачастую встречается на кораблях."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Впустите меня! Ой, а что тут..? Выпустите! Впустите обратно!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Простая бортовая дверь, покрытая каким-то свето-поглощающим веществом."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Клёвая тёмная бортовая дверь."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Неосведомлённо. Мне незнаком тип покрытия этой, в остальном типичной, бортовой двери."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Ссскрытная бортовая дверь."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Тёмная бортовая дверь."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Подобные двери типичны для космических кораблей, правда не с таким покрытием."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Дверь, подходящая для использования на борту космического корабля."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Дверь космического корабля"
+  }
+]

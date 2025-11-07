@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Скрытный шкафчик для скрывания барахлишка."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Скрытный стено-домик для скрытных дрыхов."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Неприметное устройство хранения."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Скрытное бортовое хранилище. Борт-Тайник!"
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Удовлетворённо. ‍Эффективно замаскированное бортовое хранилище."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Ссскрытное хранилище! Флоран одобряет."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Скрытное устройство для безопасного хранения всякой всячины."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Это бортовое хранилище покрыто тем же веществом, что и сам борт корабля."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Бортовое хранилище, покрытое свето-поглощающим веществом."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Бортовое хранилище"
+  }
+]

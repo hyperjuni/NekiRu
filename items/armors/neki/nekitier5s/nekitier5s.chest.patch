@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки Т5 Наплечники"},
+  {"op": "replace", "path": "/description", "value": "Рразмер всё ещё решает."}
+]

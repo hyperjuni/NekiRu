@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Скрытный шкафчик. От него не много толку, пока его не исправят."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Этот стено-домик, похоже, не фурычит."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Неприметное устройство хранения. На данный момент, оно обесточено."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Скрытное бортовое хранилище. Похоже, что оно не работает."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Разочарованно. Бортовое хранилище этого корабля неисправно."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Хранилищщще. Оно не работает."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Скрытное устройство для безопасного хранения всякой всячины. На данный момент, оно неисправно."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Бортовое хранилище корабля. На данный момент, оно неисправно."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Бортовое хранилище, покрытое свето-поглощающим веществом."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Бортовое хранилище"
+  }
+]

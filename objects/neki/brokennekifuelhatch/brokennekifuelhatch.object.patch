@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "В этот люк заливается топливо... Когда он исправен."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Это домик для пурпуррной слизи... Ой, кажется, он сломан."
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Топливо - основа всех исследований."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Топливная система. Её можно наполнить, и отправиться за приключениями."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Восторженно. Как только мне удастся его наполнить, я смогу исследовать другие солнечные системы!"
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Понессслись!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Пора наполнить его и улететь!"
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Превращает топливо в свободу!"
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Неисправная топливная система. Так не сойдёт!"
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Неисправная топливная система корабля"
+  }
+]

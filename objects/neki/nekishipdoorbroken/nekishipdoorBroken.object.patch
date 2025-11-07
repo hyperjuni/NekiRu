@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Дверь неисправна и открываться явно не собирается."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Ну вот... Оно застряло!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Простая бортовая дверь с особым покрытием. На данный момент не открывается."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Клёвая скрытная дверь. Жаль, что не открывается."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Разочарованно. Бортовая дверь. Похоже, что она неисправна."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Ссскрытная дверь не открывается!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Тёмная бортовая дверь. Она неисправна."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Такая высокотехнологичная дверь могла бы быть и понадёжнее."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Дверь, подходящая для использования на борту космического корабля."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Дверь космического корабля"
+  }
+]

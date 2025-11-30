@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Такой тип люка зачастую встречается на кораблях."
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Половой рот, чтоб мне провалиться!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Простой бортовой люк, покрытый каким-то свето-поглощающим веществом."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Клёвый тёмный бортовой люк."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Неосведомлённо. Мне незнаком тип покрытия этого, в остальном типичного, бортового люка."
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Ссскрытный бортовой люк."
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Тёмный бортовой люк."
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Подобные люки типичны для космических кораблей, правда не с таким покрытием."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Люк, подходящий для использования на борту космического корабля."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Люк космического корабля"
+  }
+]

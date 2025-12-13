@@ -1,4 +1,4 @@
 [
   {"op": "replace", "path": "/shortdescription", "value": "Нэки: Ленточки"},
-  {"op": "replace", "path": "/description", "value": "На те случаи, когда срочно надо с чем-то поиграться."}
+  {"op": "replace", "path": "/description", "value": "На те случаи, когда срочно нужно с чем-нибудь поиграться."}
 ]

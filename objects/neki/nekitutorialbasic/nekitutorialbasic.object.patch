@@ -1,0 +1,32 @@
+[
+  {"op": "replace", "path": "/novakidDescription",
+    "value": "Кажись, эта консоль на чёт намекает!"
+  },
+  {"op": "replace", "path": "/nekiDescription",
+    "value": "Голубая кнопочка! Её прросто необходимо нажать!"
+  },
+  {"op": "replace", "path": "/hylotlDescription",
+    "value": "Похоже, консоль пытается привлечь внимание командира этого судна."
+  },
+  {"op": "replace", "path": "/humanDescription",
+    "value": "Надо бы её нажать, чтобы она перестала мигать."
+  },
+  {"op": "replace", "path": "/glitchDescription",
+    "value": "Озадаченно. Что бы это мигание могло означать?"
+  },
+  {"op": "replace", "path": "/floranDescription",
+    "value": "Флоран хочет трессснуть эту дурацкую мигалку!"
+  },
+  {"op": "replace", "path": "/avianDescription",
+    "value": "Какое назойливое мигание... Я не могу свести с неё глаз!"
+  },
+  {"op": "replace", "path": "/apexDescription",
+    "value": "Кажется, этот пульт пытается о чём-то оповестить."
+  },
+  {"op": "replace", "path": "/description",
+    "value": "Мигающий пульт управления корабля."
+  },
+  {"op": "replace", "path": "/shortdescription",
+    "value": "Послание для нэки"
+  }
+]

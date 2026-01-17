@@ -1,1 +1,1 @@
-[{"op":"replace","path":"/nekiDescription","value":"(T) An AND switch. Will turrn on when all of of the inputs are on."}]
+[{"op":"replace","path":"/nekiDescription","value":"Ключ \"И\". Включится если включены все входящие сигналы."}]

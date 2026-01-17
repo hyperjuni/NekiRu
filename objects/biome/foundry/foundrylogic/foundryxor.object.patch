@@ -1,1 +1,1 @@
-[{"op":"replace","path":"/nekiDescription","value":"(T) An XORrr switch. Will turrn on when ONLY one of the inputs is on."}]
+[{"op":"replace","path":"/nekiDescription","value":"Ключ \"Исключающее ИЛИ\". Включится если включен только один из входящих сигналов."}]

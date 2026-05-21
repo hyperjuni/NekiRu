@@ -1,0 +1,4 @@
+[
+  {"op": "replace", "path": "/shortdescription", "value": "Нэки: Сарафан-бандо"},
+  {"op": "replace", "path": "/description", "value": "Из него, хотя бы, несложно выскользнуть.\nСоздан для цензурных внешек персонажа."}
+]
